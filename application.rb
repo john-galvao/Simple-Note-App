@@ -31,7 +31,7 @@ end
             print "Note: "
             text = gets.chomp
             note = Note.new(text)
-
+            @manager.store(note)
         end
 
     end
