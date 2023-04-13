@@ -24,7 +24,8 @@ def show_all
     end
 end
 
-def get_all@database.get_all
+def get_all
+    @database.get_all
 end
 
 end

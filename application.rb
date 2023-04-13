@@ -46,15 +46,15 @@ end
                 @manager.show_all
                 entries = @manager.get_all
                 if entries.length > 0
-                print "Enter Index Number to Edit: "
-                index = gets.chomp.to_i
-                note = entries.fetch(index-1)
-                # The fetch method tries to return the element at the position index
-                print "Note "
-                text = gets.chomp
-                note.set_text(text)
-                @manager.store(note)
-                puts "Entry Updated".center(50, "*")
+                    print "Enter Index Number to Edit: "
+                    index = gets.chomp.to_i
+                    note = entries.fetch(index-1)
+                    # The fetch method tries to return the element at the position index
+                    print "Note: "
+                     text = gets.chomp
+                    note.set_text(text)
+                    @manager.store(note)
+                    puts "Entry Updated".center(50, "*")
             end
         rescue Exception => e
             puts "invalid input".center(50, "-")
