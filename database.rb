@@ -14,4 +14,14 @@ class Database
         end
     end
 
+    def get_all
+        notes = []
+        @store.transaction do
+            @store.roots.each do |id|
+                notes.push(@store[id])
+            end
+    end
+     notes
+end
+
 end
