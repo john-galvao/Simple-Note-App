@@ -1,4 +1,4 @@
-# Note-Application-Ruby
+# Note Application
 A basic note application created with Ruby.
 
 This application allows the user to create notes using the built-in
