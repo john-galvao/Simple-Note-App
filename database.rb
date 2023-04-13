@@ -29,5 +29,4 @@ def delete(note)
         @store.delete(note.id.to_sym)
     end
 end
-
 end

@@ -33,5 +33,4 @@ def delete(note)
 
 end
 
-
 end

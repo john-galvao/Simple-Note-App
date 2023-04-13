@@ -23,8 +23,7 @@ end
 
         end while choice != 'q'
     end
-
-
+    
     class Menu
         def initialize
             @manager = Manager.new
