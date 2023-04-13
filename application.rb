@@ -16,6 +16,7 @@ choice = gets.chomp
 
 case choice
 when 'a' then menu.add
+when 'b' then menu.edit
 when 'd' then menu.show_all
 end
 

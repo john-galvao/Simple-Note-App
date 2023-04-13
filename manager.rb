@@ -18,8 +18,10 @@ def show_all
         puts "No Entries Found".center(50, "-")
     end
     entries.each_with_index do |item, index|
+        puts (index+1).to_s.center(50,"-")
         puts item
-
+        puts "".center(50, "-")
+    end
 end
 
 end
