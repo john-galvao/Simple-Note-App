@@ -7,4 +7,6 @@
 A simple note application created from scratch with Ruby.
 
 The application allows the user to create and edit notes using the integrated
-Add, Edit, Delete, and Show All features. Also displayed to the user are time and date stamps that automatically create with each note.
+Add, Edit, Delete, and Show All features. 
+
+Also displayed to the user are time and date stamps that automatically create with each note.
