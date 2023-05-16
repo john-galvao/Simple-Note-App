@@ -1,7 +1,7 @@
 # Note Application
 
 <p align="center">
-  <a href="https://www.ruby-lang.org/en/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" width="200" alt="Ruby Logo" /></a>
+  <a href="https://www.ruby-lang.org/en/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" width="150" alt="Ruby Logo" /></a>
 </p>
 
 A simple note application created from scratch with Ruby.
